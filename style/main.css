@@ -2,7 +2,7 @@
   font-family: "Outfit";
 }
 main {
-  /* background-color: aquamarine; */
+  background-color: red;
   width: 90%;
   height: 1000px;
   margin: auto;
@@ -145,4 +145,123 @@ main {
   border-radius: 6px;
   padding: 14px;
   color: white;
+}
+
+/* empieza la tarjeta de cafe */
+.card_cafe{
+    background-color: aqua;
+    background-image: url(/assets/img/unknown.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.card_cafe h2{
+    position: absolute;
+    /* background-color: red; */
+    color: white;
+    margin-top: -370px;
+    font-size: 30px;
+}
+.card_cafe_1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.7%;
+    width: 24%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card_cafe_1 img{
+    background-color: #2a5b45;
+    padding: 4%;
+    border-radius:20px;
+    margin-bottom: 5%;
+}
+
+/* aqui empiez la tarjeta de las bolsas */
+.card_bolsas_contenedor{
+    /* background-color: burlywood; */
+    margin-top: -1.2%;
+    width: 100%;
+    height: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card_bolsas_contenedor h2{
+    position: absolute;
+    margin-top: -30.5%;
+}
+.card_bolsas_cafe{
+    /* background-color: darkmagenta; */
+    width: 93%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+
+}
+.card_bolsas_cafe_1{
+    /* background-color: white; */
+    border: 1px solid #2a5b45;
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card_bolsas_cafe_1:hover{
+    background-color: #a0ffd494;
+}
+.card_bolsas_cafe_1 img{
+    margin-bottom: 5%;
+}
+.card_bolsas_cafe_1 button{
+    background-color: #2a5b45;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.card_bolsas_texto_flecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 32%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ejemplo{
+    background-color: darkblue;
+    width: 100%;
+    height: 50%;
 }

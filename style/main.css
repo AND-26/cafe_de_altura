@@ -1,11 +1,14 @@
+* {
+  font-family: "Outfit";
+}
 main {
-  background-color: aquamarine;
-  width: 100%;
+  /* background-color: aquamarine; */
+  width: 90%;
   height: 1000px;
   margin: auto;
 }
 
-/* empieza el bloque de header + el de incio */
+/* empieza el bloque de header + nav + los botones */
 .bloque_header_inicio {
   /* background-color: coral; */
   height: 9%;
@@ -18,7 +21,7 @@ main {
 }
 .bloque_header_logo {
   /* background-color: blueviolet; */
-  background-color: #2B2A2B;
+  background-color: #2b2a2b;
   color: white;
   display: flex;
   align-items: center;
@@ -28,7 +31,7 @@ main {
 
 .bloque_header_nav {
   /* background-color: brown; */
-  background-color: #2B2A2B;
+  background-color: #2b2a2b;
   width: 67%;
   color: white;
   display: flex;
@@ -36,7 +39,7 @@ main {
   align-items: center;
 }
 .bloque_header_nav_lista {
-    width: 100%;
+  width: 100%;
   /* background-color: grey; */
   display: flex;
   justify-content: space-evenly;
@@ -49,14 +52,14 @@ main {
 /* empieza la parte de los botones del header */
 .bloque_header_btn {
   /* background-color: cornflowerblue; */
-  background-color: #2B2A2B;
+  background-color: #2b2a2b;
   display: flex;
   width: 40%;
   padding: 3px;
 }
 .bloque_header_tlf {
   /* background-color: crimson; */
-  background-color:  #2B2A2B;
+  background-color: #2b2a2b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,8 +71,8 @@ main {
   color: white;
   text-decoration: none;
 }
-.bloque_header_btn{
-    padding: 0.8%;
+.bloque_header_btn {
+  padding: 0.8%;
 }
 .bloque_header_btn button {
   background-color: grey;
@@ -79,9 +82,67 @@ main {
 }
 .bloque_header_icon_cesta {
   /* background-color: aqua; */
-  background-color: #2B2A2B;
+  background-color: #2b2a2b;
   width: 30%;
   display: flex;
   justify-content: center;
   padding: 2.5%;
+}
+
+/* empieza el div de hero */
+.hero {
+  background-color: #e3ded7;
+  /* background-color: yellow; */
+  margin-top: -1%;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_contenedor {
+  /* background-color: cyan; */
+  display: flex;
+  width: 90%;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+}
+.hero_contenedor_texto {
+  /* background-color: cornflowerblue; */
+  /* background-color: white; */
+  width: 50%;
+  height: 60%;
+}
+.hero_contenedor_textos p:first-child{
+    margin-bottom: -27px;
+}
+.hero_contenedor_texto p:first-child {
+  font-size: 22px;
+  color: #2a5b45;
+}
+.hero_contenedor_texto h2 {
+  font-size: 45px;
+}
+.hero_contenedor_img {
+  /* background-color: khaki; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.btn_contenedor_texto_img {
+  background-color: #2b2a2b;
+  border-radius: 6px;
+  padding: 14px;
+  color: white;
+  margin-right: 8px;
+}
+.btn_contenedor_texto_cafe {
+  background-color: #2a5b45;
+  width: 20%;
+  border-radius: 6px;
+  padding: 14px;
+  color: white;
 }

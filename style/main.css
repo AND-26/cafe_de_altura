@@ -1,0 +1,87 @@
+main {
+  background-color: aquamarine;
+  width: 100%;
+  height: 1000px;
+  margin: auto;
+}
+
+/* empieza el bloque de header + el de incio */
+.bloque_header_inicio {
+  /* background-color: coral; */
+  height: 9%;
+}
+.bloque_header {
+  /* background-color: darkorange; */
+  /* background-color: black; */
+  height: 90%;
+  display: flex;
+}
+.bloque_header_logo {
+  /* background-color: blueviolet; */
+  background-color: #2B2A2B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.bloque_header_nav {
+  /* background-color: brown; */
+  background-color: #2B2A2B;
+  width: 67%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloque_header_nav_lista {
+    width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 17px;
+  list-style: none;
+  margin-left: -90px;
+}
+
+/* empieza la parte de los botones del header */
+.bloque_header_btn {
+  /* background-color: cornflowerblue; */
+  background-color: #2B2A2B;
+  display: flex;
+  width: 40%;
+  padding: 3px;
+}
+.bloque_header_tlf {
+  /* background-color: crimson; */
+  background-color:  #2B2A2B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  height: 100%;
+  width: 45%;
+}
+.bloque_header_tlf a {
+  color: white;
+  text-decoration: none;
+}
+.bloque_header_btn{
+    padding: 0.8%;
+}
+.bloque_header_btn button {
+  background-color: grey;
+  width: 95%;
+  border-radius: 5px;
+  color: white;
+}
+.bloque_header_icon_cesta {
+  /* background-color: aqua; */
+  background-color: #2B2A2B;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 2.5%;
+}

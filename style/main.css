@@ -305,7 +305,7 @@ main {
     background-color: white;
     margin-top: -1.2%;
     width: 100%;
-    height: 60%;
+    height: 63%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,6 +334,64 @@ justify-content: center;
     justify-content: flex-start;
     align-items: center;
 
+}
+
+/*bloque de contacto */
+.bloque_contacto{
+    background-color: #E3DED7;
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.bloque_contacto_texto {
+    background-color: #E3DED7;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bloque_contacto_texto div{
+    /* background-color: cadetblue; */
+    background-color: #E3DED7;
+
+
+}
+.bloque_contacto_form{
+    /* background-color: green; */
+    background-color: white;
+    width: 45%;
+    height: 100%;
+}
+.bloque_contacto_form div{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form #namee,#mail,#tlf{
+    width: 100%;
+}
+form input{
+ padding: 1.5%;
+ border-radius: 8px;
+ border: 1px solid grey;
+}
+.checkbox{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    margin-right: 1%;
+}
+form button{
+    padding: 3%;
+    width: 20%;
+    background-color: #2a5b45;
+    border-radius: 8px;
 }
 
 

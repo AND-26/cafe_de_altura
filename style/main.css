@@ -48,6 +48,12 @@ main {
   list-style: none;
   margin-left: -90px;
 }
+.bloque_header_nav_lista li:hover{
+  background-color: grey;
+padding: 5px;
+border-radius: 8px;
+
+}
 
 /* empieza la parte de los botones del header */
 .bloque_header_btn {
@@ -203,7 +209,7 @@ main {
 }
 .card_bolsas_contenedor h2 {
   position: absolute;
-  margin-top: -34.5%;
+  margin-top: -30.5%;
   color: #2a5b45;
 }
 .card_bolsas_cafe {
@@ -217,7 +223,7 @@ main {
 }
 .card_bolsas_cafe_1 {
   /* background-color: white; */
-  border: 1px solid #2a5b45;
+  border: 1px solid grey;
   height: 100%;
   width: 70%;
   border-radius: 20px;
@@ -227,7 +233,7 @@ main {
   flex-direction: column;
 }
 .card_bolsas_cafe_1:hover {
-  background-color: #a0ffd494;
+  background-color: #E3DED7;
 }
 .card_bolsas_cafe_1 img {
   margin-bottom: 5%;
@@ -244,7 +250,7 @@ main {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 37%;
+  margin-top: 33%;
 }
 
 /* bloque preguntas */
